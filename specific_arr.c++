@@ -9,19 +9,20 @@ int main()
     bool found = false;
 
     int val;
-    cout << "Enter the value to find: ";
+    cout << "Enter the value to find :";
     cin >> val;
 
-    for(int i = 0; i<5; i++)
+    for(int i = 0; i<5 ; i++)
     {
         if(arr[i] == val)
         {
-            cout << val << "The element is on inedx number" << i;
-            found == true;
+            cout << "The element " << val << "is on index number " << i;
+            found = true;
         }
     }
-    if(found==false)
+
+    if(found == false)
     {
-        cout << "Value is not in index !" << endl;
+        cout << "Value is not in index" << endl;
     }
 }

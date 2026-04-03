@@ -5,11 +5,10 @@ using namespace std;
 
 int main()
 {
-    int arr[5] = {12,13,12,15,12};
+    int arr[5] = {10,20,50,20,10};
     int count = 0;
-
     int val;
-    cout << "Enter the value to find: ";
+    cout << "Enter the value:";
     cin >> val;
 
     for(int i = 0; i<5; i++)
@@ -20,5 +19,5 @@ int main()
         }
     }
 
-    cout << "Count is " << count;
+    cout << "count is " << count;
 }
